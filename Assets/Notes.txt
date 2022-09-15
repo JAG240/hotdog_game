@@ -1,0 +1,35 @@
+Sprites
+- play button
+- launch pad 
+- reload button
+- lines (forward, backward)
+- destruction block
+- level end 
+- bun
+- hotdog enter bun anim
+- hotspot
+
+Scripts
+- Area touch block (stops player from putting lines in areas)
+
+Ideas
+- hot dog sweat when hitting objects
+
+Themes
+- outside theme
+   - bushes (with or without thorns)
+   - flowers (possibly the same as bushes)
+   - pinic blanket (regular ground)
+   - bird (possible bird poop mechanic)
+   - ant hill (destruction if touched)
+
+- kitchen theme
+	- knife (destruction)
+	- kitchen floor (ground level)
+	- flying plate (block)
+
+- living room
+	- cat (destruction)
+	- pillows (bounce)
+	- carpet (ground)
+	- 

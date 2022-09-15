@@ -1,0 +1,57 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &2272481918010731490
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2272481918010731493}
+  - component: {fileID: 2272481918010731492}
+  m_Layer: 0
+  m_Name: mainScreenEventManger
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2272481918010731493
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2272481918010731490}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 11.203759, y: 4.998261, z: -2.7113614}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2272481918010731492
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2272481918010731490}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a994be5ab3c0fb4c95e7acc37678f85, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  fireworkHotdog: {fileID: 7323312272547978809, guid: fdad880cd1914814a85e8c4465dd3cf5, type: 3}
+  screenBorders: {fileID: 0}
+  hotdog: {fileID: 7323312272547978809, guid: 7ab227354c460a0419fb9dd5f1bacdf5, type: 3}
+  mainScreenParent: {fileID: 2272481918010731490}
+  sceneManager: {fileID: 0}
+  spawnXMin: 3
+  spawnXMax: 23
+  spawnYMin: -1
+  spawnyMax: -5
+  minTime: 0.5
+  maxTime: 3
+  transition: {fileID: 0}
